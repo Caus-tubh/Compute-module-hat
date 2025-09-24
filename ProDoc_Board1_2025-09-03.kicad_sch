@@ -7616,7 +7616,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 60.96 26.67 0)
 			(effects
 				(font
@@ -7685,7 +7685,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_VH_B2P-VH_1x02_P3.96mm_Vertical"
 			(at 69.85 40.64 0)
 			(effects
 				(font
@@ -8277,7 +8277,7 @@
 		(dnp no)
 		(uuid "2131f03b-c4c1-4ca6-b4d8-04c358a4ef5d")
 		(property "Reference" "R17"
-			(at 32.258 28.448 90)
+			(at 29.972 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8285,14 +8285,14 @@
 			)
 		)
 		(property "Value" "R_CINN"
-			(at 35.306 28.448 90)
+			(at 32.258 28.448 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 33.274 27.686 90)
 			(effects
 				(font
@@ -8806,7 +8806,7 @@
 		(dnp no)
 		(uuid "365b662b-0c76-4ded-9617-65c577329edc")
 		(property "Reference" "C9"
-			(at 38.354 30.4862 0)
+			(at 39.116 30.4862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8815,7 +8815,7 @@
 			)
 		)
 		(property "Value" "C_CHGIN"
-			(at 38.354 28.4542 0)
+			(at 39.116 28.4542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9011,7 +9011,7 @@
 		(dnp no)
 		(uuid "485fe470-37b5-40dd-a824-4162d2ab32e3")
 		(property "Reference" "C10"
-			(at 40.6462 35.306 0)
+			(at 40.1382 44.704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9020,7 +9020,7 @@
 			)
 		)
 		(property "Value" "C_CSINN"
-			(at 38.6142 35.306 0)
+			(at 38.3602 44.704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9028,7 +9028,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 36.83 35.56 0)
 			(effects
 				(font
@@ -9619,7 +9619,7 @@
 		(dnp no)
 		(uuid "7abbd871-f66d-4786-bf27-20c74faf3a93")
 		(property "Reference" "C11"
-			(at 25.4062 36.576 0)
+			(at 21.5962 42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9628,7 +9628,7 @@
 			)
 		)
 		(property "Value" "C_CINP"
-			(at 23.3742 36.576 0)
+			(at 19.5642 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9636,7 +9636,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 21.59 36.83 0)
 			(effects
 				(font
@@ -10140,7 +10140,7 @@
 		(dnp no)
 		(uuid "a05688a6-8272-463b-a77f-d6d4dbc9403d")
 		(property "Reference" "C12"
-			(at 33.0262 35.306 0)
+			(at 30.7402 38.608 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10149,7 +10149,7 @@
 			)
 		)
 		(property "Value" "C_DIFF"
-			(at 30.9942 35.306 0)
+			(at 32.5182 40.386 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10157,7 +10157,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 29.21 35.56 0)
 			(effects
 				(font
@@ -10631,7 +10631,7 @@
 			)
 		)
 		(property "Value" "R_SENSE"
-			(at 33.274 22.606 90)
+			(at 28.956 20.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11129,6 +11129,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -11256,7 +11257,7 @@
 			)
 		)
 		(property "Value" "CHGIN"
-			(at 13.97 30.48 0)
+			(at 19.558 32.258 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11264,7 +11265,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_VH_B2P-VH_1x02_P3.96mm_Vertical"
 			(at 16.51 25.4 0)
 			(effects
 				(font
@@ -11672,22 +11673,22 @@
 		(dnp no)
 		(uuid "e76d7dcc-2cb9-41f7-80c0-dbb2264f1d0b")
 		(property "Reference" "R16"
-			(at 22.098 28.448 90)
+			(at 28.194 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R_SENSE"
-			(at 22.606 23.876 90)
+		(property "Value" "R_CSINP"
+			(at 26.162 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 23.114 27.686 90)
 			(effects
 				(font
@@ -12054,7 +12055,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 57.15 26.67 0)
 			(effects
 				(font
