@@ -1,4 +1,4 @@
-25630854044193302
+25629096351799187
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -90244,12 +90244,12 @@ Potentiometer vertical vishay
 3
 3
 ProDoc_Board1_2025-09-03
-CMLE063T-2R2MS
+21-100278_90-100100A_MXM
 
-
+MAX77961EFV06+ 
 0
-2
-2
+30
+30
 ProDoc_Board1_2025-09-03
 COMM-SMD_MINI5605V5A
 
@@ -90285,13 +90285,6 @@ HDR-TH_40P-P2.54-V-M-R2-C20-S2.54
 0
 40
 40
-ProDoc_Board1_2025-09-03
-MAX77961
-
-MAX77961EFV06+ 
-0
-30
-30
 ProDoc_Board1_2025-09-03
 MAXIM
 
