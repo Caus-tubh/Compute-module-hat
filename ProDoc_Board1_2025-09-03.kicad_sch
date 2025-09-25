@@ -4445,6 +4445,12 @@
 		(uuid "87afb9fe-ff99-48cd-8627-7911692e363f")
 	)
 	(junction
+		(at 21.59 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bd25ccd-5501-4cf1-8c5e-b0ff9edbb0bd")
+	)
+	(junction
 		(at 59.69 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4699,16 +4705,6 @@
 			(type default)
 		)
 		(uuid "08fd3577-30b3-4cf3-bd4c-fd7bf86d0d19")
-	)
-	(wire
-		(pts
-			(xy 57.15 152.4) (xy 60.96 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "090a5533-cfe3-4576-bc90-512d7c5f88e6")
 	)
 	(wire
 		(pts
@@ -4989,6 +4985,16 @@
 			(type default)
 		)
 		(uuid "24636de8-8c5e-4ffd-b5d3-b3dd56959f8f")
+	)
+	(wire
+		(pts
+			(xy 52.07 152.4) (xy 60.96 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25c626ec-76c3-411e-b835-bc08f7feb885")
 	)
 	(wire
 		(pts
@@ -6362,6 +6368,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 17.78) (xy 21.59 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c657b0f8-2774-45ac-aef7-c90db9bebca4")
+	)
+	(wire
+		(pts
 			(xy 91.44 64.77) (xy 91.44 74.93)
 		)
 		(stroke
@@ -6859,6 +6875,36 @@
 			(type default)
 		)
 		(uuid "fea81fb5-a525-4f9d-8abb-e673a317889a")
+	)
+	(label "LX1"
+		(at 35.56 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0dc49526-03ed-4a57-ad15-e9965fa15914")
+	)
+	(label "LX2"
+		(at 44.45 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b2e2278-8a05-45c7-8d58-fa7c0c3b12b7")
+	)
+	(label "VBUS"
+		(at 21.59 17.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd5e3f74-9b4d-47e0-9a30-040a4ae80ce6")
 	)
 	(global_label "Vavl"
 		(shape input)
@@ -9310,7 +9356,7 @@
 		(dnp no)
 		(uuid "54e3d303-5506-49ce-add3-3e630fb93c42")
 		(property "Reference" "R1"
-			(at 42.672 171.45 90)
+			(at 19.304 171.704 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9318,7 +9364,7 @@
 			)
 		)
 		(property "Value" "R_OTGEN"
-			(at 48.514 171.704 90)
+			(at 25.4 171.704 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9394,7 +9440,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 53.34 35.56 0)
 			(effects
 				(font
@@ -11719,7 +11765,7 @@
 		(dnp no)
 		(uuid "d3676e02-46c2-48d0-b2b1-076101672721")
 		(property "Reference" "R2"
-			(at 42.164 174.244 90)
+			(at 19.304 174.244 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11727,7 +11773,7 @@
 			)
 		)
 		(property "Value" "R_DISQBAT"
-			(at 48.768 174.244 90)
+			(at 25.908 174.244 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11963,74 +12009,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 54.61 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e2ea8768-a037-45d1-b46e-0f42990e6262")
-		(property "Reference" "NT1"
-			(at 54.61 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 54.61 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 54.61 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 54.61 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6b95d174-0d76-4b86-be25-256c667cc51e")
-		)
-		(pin "2"
-			(uuid "154d01de-4054-4d98-a84e-79a43b8e2aef")
-		)
-		(instances
-			(project ""
-				(path "/22951858-26de-4467-a87e-6fd549154140"
-					(reference "NT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 53.34 38.1 0)
 		(unit 1)
@@ -12114,7 +12092,7 @@
 			)
 		)
 		(property "Value" "R_STBY"
-			(at 124.968 161.29 90)
+			(at 124.968 161.544 90)
 			(effects
 				(font
 					(size 1.27 1.27)
