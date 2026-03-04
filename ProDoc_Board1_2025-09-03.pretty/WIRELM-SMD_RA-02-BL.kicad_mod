@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" ""
+	(property "Value" "Val**"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(uuid "ad1862d0-d75f-4887-908b-733e435f155c")
@@ -419,6 +419,17 @@
 		(fill yes)
 		(layer "Dwgs.User")
 		(uuid "54426eb3-fdc7-48f4-9d55-c22f54a95a70")
+	)
+	(fp_rect
+		(start -9 -9.25)
+		(end 8.75 9.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "49a987ab-08c5-4c31-b04f-78b1006192ed")
 	)
 	(fp_poly
 		(pts
